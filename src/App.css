@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+/* Media query for Mobile devices (screens with a max width of 768px) */
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(10px + 4vmin); /* Increase font size for better readability on smaller screens */
+    padding: 20px;
+    justify-content: flex-start; /* Adjust vertical alignment */
+  }
+
+  .App-logo {
+    height: 50vmin; /* Make logo slightly larger on mobile */
+  }
+
+  .App-link {
+    font-size: calc(8px + 2vmin); /* Adjust link size for readability */
+    padding: 10px;
+  }
+}
