@@ -106,7 +106,7 @@ function Sidebar({ open, setOpen }) {
 
 function SidebarItem({ icon, text, active = false }) {
     return (
-        <a href="#" className={`flex items-center space-x-2 px-4 py-2 rounded-lg ${active ? 'bg-red-50 text-red-600' : 'text-gray-600 hover:bg-gray-100'}`}>
+        <a href="/" className={`flex items-center space-x-2 px-4 py-2 rounded-lg ${active ? 'bg-red-50 text-red-600' : 'text-gray-600 hover:bg-gray-100'}`}>
             {icon}
             <span className="md:hidden lg:inline">{text}</span>
         </a>
